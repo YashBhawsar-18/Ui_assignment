@@ -46,7 +46,7 @@ const SearchCard = () => {
           />
         </div>
 
-        {/* Explore Now Button */}
+        {/* Explore Button*/}
         <div className="mt-2 md:mt-0">
           <button className="bg-[var(--primary)] text-white px-6 py-3 rounded hover:bg-orange-600 transition">
             Explore Now

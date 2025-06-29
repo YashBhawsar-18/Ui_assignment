@@ -5,7 +5,14 @@ import Image from "next/image";
 const ThingsToDo = () => {
   return (
     <section className="bg-[#f4f6f9] py-16 px-4">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center relative">
+        <Image 
+        src="/bgdoubleplane.svg"
+        height={130}
+        width={130}
+        alt="Double Plane Background"
+        className="absolute top-6 left-240"
+        />
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-b)] mb-4">
           Things you need <span className="text-[var(--primary)]">to do</span>

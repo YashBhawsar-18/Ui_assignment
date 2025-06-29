@@ -5,7 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex items-center justify-between px-48 py-4 bg-[var(--off-white)] shadow-sm">
+      <nav className="fixed top-0 z-50 w-full flex items-center justify-between px-48 py-4 bg-[var(--off-white)] shadow-sm">
         {/* ----Logo---- */}
         <Link href="/">
           <div className="flex items-center space-x-2">

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#f4f6f9] pt-20 px-4">
       {/* Subscribe Card */}
-      <div className="relative max-w-6xl mx-auto bg-[var(--primary)] rounded-lg px-6 py-12 text-white overflow-hidden">
+      <div className="relative max-w-6xl mx-auto bg-[var(--primary)] rounded-lg px-6 py-12 text-white overflow-hidden flex flex-col items-center justify-center">
         {/* Background graphics */}
         <Image
           src="/rings.svg"
@@ -23,14 +23,12 @@ const Footer = () => {
           className="absolute top-0 right-0"
         />
 
-        {/* Text + Form */}
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white max-w-md">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-white max-w-md">
           Subscribe and get exclusive <br /> deals & offer
         </h2>
 
         <form className="max-w-2xl mt-6 w-full">
-          <div className="flex bg-white rounded-full overflow-hidden shadow-md w-full">
-            {/* Input with icon */}
+          <div className="flex bg-white rounded-lg overflow-hidden shadow-md w-full">
             <div className="relative flex-1">
               <Image
                 src="/emailicon.svg"
@@ -46,10 +44,10 @@ const Footer = () => {
               />
             </div>
 
-            {/* Button (same height, inside container) */}
+      
             <button
               type="submit"
-              className="bg-[var(--primary)] text-white text-sm font-semibold px-6 rounded-full m-2"
+              className="bg-[var(--primary)] text-white text-sm font-semibold px-6 rounded-lg m-1 cursor-pointer"
             >
               Subscribe
             </button>
@@ -69,9 +67,6 @@ const Footer = () => {
                 width={120}
                 height={120}
               />
-              {/* <span className="text-2xl font-bold text-[var(--secondary)]">
-                Travor
-              </span> */}
             </div>
             <p className="text-sm text-[var(--paragraph)] leading-relaxed">
               Book your trip in minute, get full <br /> control for much longer.
@@ -79,7 +74,6 @@ const Footer = () => {
 
             {/* Social Icons */}
             <div className="flex items-center gap-4 pt-2">
-              {/* Facebook */}
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-md">
                 <Image
                   src="/facebookicon.svg"
@@ -88,8 +82,6 @@ const Footer = () => {
                   height={20}
                 />
               </div>
-
-              {/* Instagram (Highlighted) */}
               <div className="w-10 h-10 rounded-full bg-[var(--primary)] flex items-center justify-center shadow-md">
                 <Image
                   src="/instagramicon.svg"
@@ -98,8 +90,6 @@ const Footer = () => {
                   height={20}
                 />
               </div>
-
-              {/* Twitter */}
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-md">
                 <Image
                   src="/twittericon.svg"
@@ -147,7 +137,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
+  
         <div className="flex flex-col md:flex-row justify-between items-center mt-10 pt-6 border-t text-sm text-gray-400">
           <p>Copyright, Trabook 2022. All rights reserved.</p>
           <p>Terms & Conditions</p>

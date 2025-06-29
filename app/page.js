@@ -4,7 +4,7 @@ import PopularDestination from "@/components/PopularDestination";
 import SearchCard from "@/components/SearchCard";
 import TestimonialSection from "@/components/TestimonialSection";
 import ThingsToDo from "@/components/ThingsToDo";
-import Footer from "@/public/Footer";
+import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default function Home() {

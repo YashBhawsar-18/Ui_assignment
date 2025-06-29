@@ -6,7 +6,6 @@ const PopularDestination = () => {
   return (
     <section className="bg-[#f4f6f9] py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Section Heading */}
         <div className="text-center mb-10">
           <p className="text-[var(--secondary)] font-medium">Most Attractive</p>
           <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-b)]">
@@ -29,7 +28,7 @@ const PopularDestination = () => {
 
         {/* Destination Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {/* Card 1 */}
+                    {/*---Card 1---*/}
           <div className="bg-white rounded shadow hover:shadow-md transition overflow-hidden">
             <Image
               src="/madrid.png"
