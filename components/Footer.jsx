@@ -5,9 +5,9 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-[#f4f6f9] pt-20 px-4">
-      {/* Subscribe Card */}
+
       <div className="relative max-w-6xl mx-auto bg-[var(--primary)] rounded-lg px-6 py-12 text-white overflow-hidden flex flex-col items-center justify-center">
-        {/* Background graphics */}
+   
         <Image
           src="/rings.svg"
           alt="Rings"
@@ -55,10 +55,10 @@ const Footer = () => {
         </form>
       </div>
 
-      {/* Footer Grid */}
+
       <div className="max-w-6xl mx-auto pt-16 pb-8 text-[var(--primary-b)]">
         <div className="flex flex-col md:flex-row justify-between gap-10">
-          {/* Logo + Desc */}
+      
           <div className="space-y-4 max-w-sm">
             <div className="flex items-center gap-2">
               <Image
@@ -72,7 +72,6 @@ const Footer = () => {
               Book your trip in minute, get full <br /> control for much longer.
             </p>
 
-            {/* Social Icons */}
             <div className="flex items-center gap-4 pt-2">
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-md">
                 <Image
@@ -101,7 +100,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links Grid */}
+      
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm text-[var(--paragraph)]">
             <div>
               <h4 className="font-semibold text-[var(--primary-b)] mb-3">

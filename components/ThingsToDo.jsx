@@ -13,7 +13,7 @@ const ThingsToDo = () => {
         alt="Double Plane Background"
         className="absolute top-6 left-240"
         />
-        {/* Heading */}
+       
         <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-b)] mb-4">
           Things you need <span className="text-[var(--primary)]">to do</span>
         </h2>
@@ -22,9 +22,9 @@ const ThingsToDo = () => {
           a price you can afford.
         </p>
 
-        {/* Cards */}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Sign Up Card */}
+ 
           <div className="relative bg-white p-6 rounded shadow-md hover:shadow-lg transition">
             <Image
               src="/signup.svg"
@@ -48,7 +48,7 @@ const ThingsToDo = () => {
             />
           </div>
 
-          {/* Worth of Money Card */}
+        
           <div className="relative bg-white p-6 rounded shadow-md hover:shadow-lg transition">
             <Image
               src="/worthofmoney.svg"
@@ -72,7 +72,7 @@ const ThingsToDo = () => {
             />
           </div>
 
-          {/* Exciting Travel Card */}
+     
           <div className="relative bg-white p-6 rounded shadow-md hover:shadow-lg transition">
             <Image
               src="/exciting.svg"

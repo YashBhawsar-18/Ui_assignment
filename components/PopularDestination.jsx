@@ -13,7 +13,7 @@ const PopularDestination = () => {
           </h2>
         </div>
 
-        {/* Filter Tabs */}
+     
         <div className="flex justify-center gap-4 mb-8">
           <button className="bg-[var(--secondary)] text-white px-4 py-2 rounded">
             Beach
@@ -26,9 +26,9 @@ const PopularDestination = () => {
           </button>
         </div>
 
-        {/* Destination Cards */}
+      
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                    {/*---Card 1---*/}
+              
           <div className="bg-white rounded shadow hover:shadow-md transition overflow-hidden">
             <Image
               src="/madrid.png"
@@ -63,7 +63,7 @@ const PopularDestination = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
+   
           <div className="bg-white rounded shadow hover:shadow-md transition overflow-hidden">
             <Image
               src="/logasea.png"
@@ -98,7 +98,7 @@ const PopularDestination = () => {
             </div>
           </div>
 
-          {/* Card 3 */}
+  
           <div className="bg-white rounded shadow hover:shadow-md transition overflow-hidden">
             <Image
               src="/desert.png"
@@ -133,7 +133,7 @@ const PopularDestination = () => {
             </div>
           </div>
 
-          {/* Card 4 */}
+   
           <div className="bg-white rounded shadow hover:shadow-md transition overflow-hidden">
             <Image
               src="/falling.png"

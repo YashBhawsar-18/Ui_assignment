@@ -6,13 +6,13 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="relative bg-[var(--off-white)] px-6 md:px-16 py-20">
-      {/* -----Left Text Content----- */}
+ 
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
         <Image src="/bgplane.svg" 
           width={400}
           height={600}
           alt="planeimage"
-          className="absolute top-30 border left-130"
+          className="absolute top-30 left-130"
         />
 
         <div className="flex-1 space-y-6">
@@ -32,7 +32,7 @@ const HeroSection = () => {
           </button>
         </div>
 
-        {/* -----Hero Image----- */}
+   
         <div className="flex-1 -ml-6 relative">
           <Image
             src="/heroimg.png"
@@ -43,7 +43,7 @@ const HeroSection = () => {
             priority
           />
 
-          {/* Explore */}
+     
           <div className="absolute top-26 left-104 bg-white px-2 py-2 rounded-lg shadow flex items-center gap-2 w-[160px]">
             <Image
               src="/google-maps.svg"
@@ -62,7 +62,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Best Tour Award  */}
+     
           <div className="absolute bottom-10 -left-4 bg-white px-4 py-2 rounded-lg shadow flex items-center gap-2">
             <Image src="/award.svg" alt="Award" width={24} height={24} />
             <span className="text-sm text-[var(--primary-b)]">

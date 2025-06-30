@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 z-50 w-full flex items-center justify-between px-48 py-4 bg-[var(--off-white)] shadow-sm">
-        {/* ----Logo---- */}
+     
         <Link href="/">
           <div className="flex items-center space-x-2">
             <Image src="/mascott.png" alt="Travor Logo" width={30} height={30} />
@@ -16,7 +16,7 @@ const Navbar = () => {
           </div>
         </Link>
 
-        {/* ------Nav Links------ */}
+     
         <ul className="hidden md:flex space-x-8 text-sm font-medium text-[var(--color-b-1)]">
           <li>
             <Link href="/">Home</Link>
@@ -35,9 +35,9 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Login Button */}
+       
         <Link href="/login">
-          <button className="px-4 py-2 border border-[var(--primary-o)] text-[var(--primary-o)] rounded hover:bg-[var(--primary-o)] hover:text-white transition">
+          <button className="px-4 py-2 border border-[var(--primary-o)] text-[var(--primary-o)] rounded hover:bg-[var(--primary-o)] hover:text-white ">
             Log In
           </button>
         </Link>
